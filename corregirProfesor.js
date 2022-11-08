@@ -17,7 +17,7 @@ while(elemento.hasChildNodes()) elemento.removeChild(elemento.firstChild);
 for (let i=0; i< 800; i++) {
 let nodo = document.createElement("div");
 nodo.className = "cuadro"
-nodo.style="background-color: rgb("+anime.random(155,255)+",0,0);"
+nodo.style="background-color: rgb("+anime.random(155,255)+",0,0)"
 elemento.appendChild(nodo);
 }
 
